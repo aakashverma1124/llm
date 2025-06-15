@@ -1,3 +1,5 @@
+## Setting up Typescript project
+
 `npm init -y`
 
 `npm install typescript ts-node --save-dev`
@@ -6,13 +8,22 @@
 
 `npm install openai`
 
-Initialise typescript
+## Initialise Typescript
+
 `npx tsc --init`
 
-Run projects
+## Build in this order if you're following and building on your machine.
+
+- intro-project
+- web-summarization
+
+## Run projects
+
 `npx ts-node src/<project_name>/index.ts`
 
-Dependencies needed for `web-summarization` project
+## `web-summarization` project
+
+You need this step when you start building `web-summarization` project.
 `npm install axios cheerio`
 
 `axios`: for making http requests
