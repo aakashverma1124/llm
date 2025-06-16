@@ -18,3 +18,16 @@ Keep adding dependencies that you need in the `requirement.txt` files and whenev
 ## Run projects
 
 `python3 <project_name>/main.py`
+
+## `web-summarization` project
+
+Add the following packages in `requirement.txt` file.
+`requests>=2.0.0`
+`beautifulsoup4>=4.0.0`
+and then run `pip install -r requirements.txt`
+
+`requests`: for making http requests
+`beautifulsoup4`: for scraping the content of the website.
+
+requests>=2.0.0
+beautifulsoup4>=4.0.0
